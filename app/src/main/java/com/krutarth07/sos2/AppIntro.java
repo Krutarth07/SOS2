@@ -12,7 +12,7 @@ import com.github.paolorotolo.appintro.AppIntroFragment;
 /**
  * Created by Admin on 23-03-2017.
  */
-
+/////aaaaaaaaaaaaaaaaaaaaaaaaaa
 public class AppIntro extends com.github.paolorotolo.appintro.AppIntro {
 
     @Override
