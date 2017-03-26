@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:theme="@style/MyAction"
+        android:title="Settings"
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listsettings"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:dividerHeight="17dp"
+        android:divider="@android:color/transparent"
+        android:layout_alignParentStart="true"
+        android:layout_x="6dp"
+        android:layout_y="60dp" />
+
+</AbsoluteLayout>
