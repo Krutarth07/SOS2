@@ -52,6 +52,7 @@ import uk.co.samuelwall.materialtaptargetprompt.MaterialTapTargetPrompt;
 
 public class MainActivity extends Activity {
 //test again
+
     CharSequence options[] = new CharSequence[]{"Yes", "No"};
 
     private static MainActivity inst;
